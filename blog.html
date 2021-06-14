@@ -24,9 +24,13 @@ function myFunction5() {
 function myFunction6() {
   document.getElementById("June_20210607").style.display = "block";
 }
+function myFunction7() {
+  document.getElementById("June_20210614").style.display = "block";
+}
 </script>
 
 <style>
+#June_20210614 {display: none;}
 #June_20210607 {display: none;}
 #June_20210602 {display: none;}
 #May_20210524 {display: none;}
@@ -81,6 +85,32 @@ body {font-size : 12pt;
  <!------------------------------------------------>
 
 <!-- NEW POSTS HERE -->
+
+<div class="card">
+  <h2>Statistical Variable Types – Some History and My Thoughts</h2>
+  <h4>A quest to present a coherent, relevant list of variable types in introductory statistics, June 14, 2021</h4>
+  <p>
+  <button class = "w3-black w3-button" onclick="myFunction7()"> Read post </button></p>
+  <div id="June_20210614">
+  <p>  I’m on a quest today to understand the types of variables in statistical studies.  I’ll be teaching an introductory statistics class in the fall and need a clear, consistent approach to take with the students.</p>
+  <p>While questing, I was happy to discover a bit of history surrounding types of variables, also known as levels of measurement.  The well-known four levels of measurement – nominal, ordinal, interval, ratio – were developed in the 1940s by psychologist Stevens (<a href=” https://en.wikipedia.org/wiki/Level_of_measurement”>Level of measurement</a> (URL: https://en.wikipedia.org/wiki/Level_of_measurement)).  This classification is surrounded by criticism.  Many other classification systems with more or different classifications have been developed.  Moreover, textbooks and online sources have multiple classification systems.</p>
+  <p>The four levels of measurement of Stevens does a good job of separating variables into groups based on arithmetic operations.
+  <ul>
+  <li> Nominal variables – no arithmetic operations can be performed
+  <li> Ordinal variables – ordering can be performed, only
+  <li> Interval variables – ordering and differences can be performed, only
+  <li> Ratio variables – ordering, differences, and ratios can be performed.
+  </ul>
+  I think it’s fair to say that Stanley was thinking about the statistical operations that could be performed in the 1940s.  (Confession – I didn’t read Stanley’s paper and don’t know what he was thinking about, but framing his levels in terms of allowable statistical operations is what we want to do.)  For example, it makes perfect sense to say that 60 degrees is 40 degrees more than 20 degrees (difference), but not that 60 degrees is three times warmer than 20 degrees (ratio).  Great, so we have temperature must be an interval variable.</p>
+  <p>My colleagues claim that the difference between interval and ratio variables are difficult for the students to determine.  This makes sense.  It is difficult.  Case in point, temperature can be measured in degrees Fahrenheit (interval) or Kelvin (ratio).  Sigh…  Thus my personal quest for clarity.</p>
+  <p>Since the 1940s statistical understanding, tools, and computational power has grown.  These four levels of measurement no longer capture the salient features of data.  What to use instead?</p>
+  <p>Other modern classification systems continue to focus on classifying data into groups based on the statistics that can be performed on that data type.  A very nice description is given by Jeff Hale in <a href = "https://towardsdatascience.com/7-data-types-a-better-way-to-think-about-data-types-for-machine-learning-939fae99a689"> 7 Data Types: A Better Way to Think about Data Types for Machine Learning</a>, Aug 29, 2018, Towards Data Science.  Reading all the way through, you will find that Jeff suggests 11 data types for the modern digital age: useless, nominal, binary, ordinal, count, time, interval, image, video, audio, and text.</p>
+  <p>I like that time is separated out into it’s own group; it really does have unique properties.  The addition of image, video, audio, and text are well beyond the scope of an intro stats class.  I’ll leave them here for the interested reader, but I’ll be ignoring them.</p>
+  <p>There are other ways to think about variables in statistics, such as explanatory or extraneous.  Two very extensive lists for you to review are at <a href = “https://www.indeed.com/career-advice/career-development/types-of-variables”>10 Types of Variables in Research and Statistics</a>, Indeed Editorial Team, March 29, 2021 and <a href=” https://www.statisticshowto.com/probability-and-statistics/types-of-variables/”>A List of Common and Uncommon Types of Variables</a> Stephanie Glen, StatisticsHowTo.com: Elementary Statistics for the rest of us!.</p>
+  <p>Check out next week (June 21, 2021) where I’ll let you know the approach I’ll take during my fall class.</p>
+
+</div>
+</div>
 
 <div class="card">
   <h2>Personal Goals for Blogging </h2>
