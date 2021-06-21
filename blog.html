@@ -27,9 +27,14 @@ function myFunction6() {
 function myFunction7() {
   document.getElementById("June_20210614").style.display = "block";
 }
+function myFunction8() {
+  document.getElementById("June_20210621").style.display = "block";
+}
+
 </script>
 
 <style>
+#June_20210621 {display: none;}
 #June_20210614 {display: none;}
 #June_20210607 {display: none;}
 #June_20210602 {display: none;}
@@ -85,6 +90,56 @@ body {font-size : 12pt;
  <!------------------------------------------------>
 
 <!-- NEW POSTS HERE -->
+
+<div class="card">
+  <h2>Statistical Variable Types – My Class</h2>
+  <h4>A quest to present a coherent, relevant list of variable types in introductory statistics, June 21, 2021</h4>
+  <p>
+  <button class = "w3-black w3-button" onclick="myFunction8()"> Read post </button></p>
+  <div id="June_20210621">
+  <p>I recently went on a quest to understand the types of variables in statistical studies.  In my post from last week (June 14, 2021), I gave a brief description of the well-known four levels of measurement developed by Stanley.  I highlighted some of the complications in developing a clear, consistent approach to take with the students.  </p>
+
+<p>I started with a careful read of the two textbooks of the class.  The department selected
+<a href=”https://www.cengage.com/c/understandable-statistics-concepts-and-methods-12e-brase/9781337119917PF/”> Understandable Statistics: Concepts and Methods</a>
+ (URL: https://www.cengage.com/c/understandable-statistics-concepts-and-methods-12e-brase/9781337119917PF/) Brase and Brase, 12th edition, Cengage Learning.  True confession – I have a pdf version of Brase and Brase, 10th edition, which is what I really used here.  Towards my goal of open pedagogy, I’ll be using the OpenStax,
+<a href=”https://openstax.org/details/books/introductory-statistics”> Introductory Statistics</a>
+ (URL: https://openstax.org/details/books/introductory-statistics) text in my section.</p>
+
+<p>Both texts begin with a general classification into qualitative (categorical) and quantitative.  Mashing this with Stanley’s classification we would have
+<ul>
+<li> Qualitative – nominal, ordinal
+<li> Quantitative – interval, ratio
+</ul>
+This all seems relative straight forward until you get to discrete verses continuous.  I’m claiming that right here everything heads off the rails (on a crazy train!).  Prepare yourself.  Nominal variables can be coded with discrete numerical values.  Ordinal variables are often coded with discrete numerical values.  Interval and ratio variables are often given in discrete numerical values, even though they could take on non-whole number values.  </p>
+<p>Speaking of ordinal variables, things are complicated (for all classifications, in my opinion).  The theory says ordinal variables are qualitative variables that can be ordered (whereas nominal variables cannot be ordered).  The theory says “no arithmetic”, so no means or other statistics requiring arithmetic.  However, ordinal variables can be coded with numerical values and some research fields do compute “arithmetic statistics” for ordinal data.  On average, how happy are college students? for example.  At least this is everyone’s problem and I can direct students to follow standard practices in their field.</p>
+<p>If you need more to mull over, interval and ratio variables can be discrete or continuous.  These are separate classifications, not related to each other.  It seems I need to select interval / ratio or discrete / continuous for quantitative variables, but I’ll avoid using both.  </p>
+<p>I’m going to give up on Stanley’s classifications, but I don’t think that settles the problem completely.  There is still the continuous data that appears discrete, like age.  Here’s the approach I’ll take during class.
+<ul>
+<li> Qualitative – non-numeric (though may be coded with numbers), with further classification
+<ul>
+<li> Nominal – categorical
+<li> Ordinal (at least in our class) – ordered
+</ul>
+<li> Quantitative – numeric, with further classification
+<ul>
+<li> Discrete – counting
+<li> Continuous – not counting
+</ul>
+</ul>
+</p>
+
+<p>The statistics class will be using the SPSS statistical software program (<a href = "https://www.ibm.com/analytics/spss-statistics-software">IBM SPSS software</a> (URL: https://www.ibm.com/analytics/spss-statistics-software)).  In the end, SPSS has five ways you can classify data using two “type” classifications and three “measure” classifications.
+  <ul>
+<li>String type, nominal measure
+<li>String type, ordinal measure
+<li>Numeric type, nominal measure
+<li>Numeric type, ordinal measure
+<li>Numeric type, scale measure
+</ul>
+Focusing on the “measure”, this matches up nicely with my classification above.  SPSS allows the user to code ordinal and nominal variables as a string or numeric value.  SPSS joins all quantitative variables together into Numeric type, scale measure.  I think we can handle that!  </p>
+
+</div>
+</div>
 
 <div class="card">
   <h2>Statistical Variable Types – Some History and My Thoughts</h2>
